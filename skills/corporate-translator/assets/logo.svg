@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Corporate Translator">
+  <defs>
+    <linearGradient id="ct-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#4338CA"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#ct-bg)"/>
+  <path d="M10 18a4 4 0 0 1 4-4h13a4 4 0 0 1 4 4v9a4 4 0 0 1-4 4h-8l-3 4v-4h-2a4 4 0 0 1-4-4v-9z" fill="#FFFFFF"/>
+  <path d="M14 22h9" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" opacity="0.75"/>
+  <path d="M14 26h6" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+  <path d="M31 32l4 4 4-4" stroke="#FBBF24" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="35" y1="25" x2="35" y2="36" stroke="#FBBF24" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M54 46a4 4 0 0 0-4-4H37a4 4 0 0 0-4 4v9a4 4 0 0 0 4 4h2v4l3-4h8a4 4 0 0 0 4-4v-9z" fill="#FFFFFF"/>
+  <path d="M40.5 54l3-9 3 9M41.7 51.6h3.6" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
