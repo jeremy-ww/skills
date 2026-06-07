@@ -29,7 +29,7 @@ The schema has two shapes. Pick the right one based on whether the input is a wo
 
 ```json
 {
-  "id": "<id>",
+  "id": "<numeric_id>",
   "word": "<Word>",
   "phonetic": "/<American IPA>/",
   "translation": "<Chinese translation>",
@@ -50,7 +50,7 @@ The schema has two shapes. Pick the right one based on whether the input is a wo
 
 ```json
 {
-  "id": "<id>",
+  "id": "<numeric_id>",
   "text": "<Sentence>",
   "translation": "<Chinese translation>"
 }
