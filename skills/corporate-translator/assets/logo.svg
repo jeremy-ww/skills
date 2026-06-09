@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Corporate Translator">
   <defs>
-    <linearGradient id="ct-bg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="corporate-translator-gradient" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#818CF8"/>
       <stop offset="100%" stop-color="#4338CA"/>
     </linearGradient>
   </defs>
-  <rect width="64" height="64" rx="14" fill="url(#ct-bg)"/>
+  <rect width="64" height="64" rx="14" fill="url(#corporate-translator-gradient)"/>
   <path d="M10 18a4 4 0 0 1 4-4h13a4 4 0 0 1 4 4v9a4 4 0 0 1-4 4h-8l-3 4v-4h-2a4 4 0 0 1-4-4v-9z" fill="#FFFFFF"/>
   <path d="M14 22h9" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" opacity="0.75"/>
   <path d="M14 26h6" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
