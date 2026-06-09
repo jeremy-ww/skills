@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Data Populator">
   <defs>
-    <linearGradient id="dp-bg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="data-populator-gradient" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#34D399"/>
       <stop offset="100%" stop-color="#047857"/>
     </linearGradient>
   </defs>
-  <rect width="64" height="64" rx="14" fill="url(#dp-bg)"/>
+  <rect width="64" height="64" rx="14" fill="url(#data-populator-gradient)"/>
   <rect x="11" y="16" width="3" height="3" rx="1" fill="#FFFFFF" opacity="0.95"/>
   <rect x="17" y="16.5" width="11" height="2" rx="1" fill="#FFFFFF" opacity="0.95"/>
   <rect x="11" y="24" width="3" height="3" rx="1" fill="#FFFFFF" opacity="0.75"/>
