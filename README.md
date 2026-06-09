@@ -1,4 +1,4 @@
-# InnerGrowth Skills
+# Skills
 
 A collection of translation and language skills for agent tools.
 
