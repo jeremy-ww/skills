@@ -1,6 +1,6 @@
 interface:
   display_name: "Corporate Translator"
-  short_description: "Translates casual workplace messages into professional corporate English"
+  short_description: "Translates casual messages into professional corporate English"
   icon_small: "./assets/logo.svg"
   icon_large: "./assets/logo.svg"
   brand_color: "#6366F1"
