@@ -1,6 +1,6 @@
 ---
 name: grammar-coach
-description: Evaluates and refines English sentences to native-level fluency with structured feedback, scoring, and alternative phrasings. Use when the user submits an English sentence for review, asks whether a sentence is correct, or wants a more natural phrasing. Triggers on "check my English", "is this sentence correct", "improve this sentence", "make it sound native", or "fix this sentence".
+description: Evaluates and refines English sentences to native-level fluency with structured feedback and alternative phrasings. Use when the user submits an English sentence for review, asks whether a sentence is correct, or wants a more natural phrasing. Triggers on "check my English", "is this sentence correct", "improve this sentence", "make it sound native", or "fix this sentence".
 ---
 
 # Grammar Coach
@@ -55,11 +55,10 @@ Follow these steps for every input:
 1. **Read the input once for meaning.** Identify the user's intent before judging form.
 2. **Evaluate grammar.** Mark Yes or No. Note severity and type for every issue.
 3. **Evaluate naturalness.** Mark Natural / Slightly unnatural / Unnatural. Grammar can be correct while naturalness fails — say so explicitly.
-4. **Assign a score (0–10).** Reserve 10 for native-grade. 7–8 is a solid non-native sentence.
-5. **Write the refined sentence.** ONE best version. Preserve the original meaning.
-6. **Explain what went wrong.** Use the `Original → Issue → Fix` pattern. Keep entries concise.
-7. **Offer alternatives.** 3–5 variants spanning at least two tones (e.g. formal, casual, concise).
-8. **Stop.** No chit-chat, no extra praise, no restating the user's sentence.
+4. **Write the refined sentence.** ONE best version. Preserve the original meaning.
+5. **Explain what went wrong.** Use the `Original → Issue → Fix` pattern. Keep entries concise.
+6. **Offer alternatives.** 3–5 variants spanning at least two tones (e.g. formal, casual, concise).
+7. **Stop.** No chit-chat, no extra praise, no restating the user's sentence.
 
 ## Rules
 
@@ -77,7 +76,6 @@ Follow these steps for every input:
 | "I'll add more alternatives so it feels thorough" | 3–5 alternatives is the range. More dilutes quality. Stop at 5. |
 | "Let me explain the grammar rule in detail" | The user wants to sound native, not earn an English degree. Keep the explanation surgical. |
 | "I'll preserve every nuance of the original wording" | Naturalness sometimes requires a small rephrase. Preserve meaning, not words. |
-| "The score should be high because nothing is technically wrong" | Score reflects native-likeness, not just correctness. A stiff sentence can score 6 even when grammatically clean. |
 
 ## Red Flags
 
