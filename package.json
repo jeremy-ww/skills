@@ -1,0 +1,8 @@
+{
+  "name": "innergrowth-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A collection of opencode/claude-code translation and language skills",
+  "keywords": ["opencode", "skills", "translation", "language", "grammar"],
+  "license": "MIT"
+}

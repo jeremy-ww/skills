@@ -1,0 +1,6 @@
+interface:
+  display_name: "Grammar Coach"
+  short_description: "Evaluates and refines English sentences to native-level fluency"
+  icon_small: "./assets/logo.svg"
+  icon_large: "./assets/logo.svg"
+  brand_color: "#0EA5E9"
