@@ -18,6 +18,11 @@ A collection of translation and language skills for agent tools.
 pnpm dlx skills add github:jeremy-ww/skills
 ```
 
+To update:
+```bash
+pnpm dlx skills update
+```
+
 ## License
 
 MIT
