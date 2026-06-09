@@ -31,7 +31,6 @@ Use the following four sections in this exact order. Use emojis as section heade
 ✅ Evaluation
 * Grammar: Yes / No
 * Naturalness: Natural / Slightly unnatural / Unnatural
-* Score: <0–10>
 * Issues:
   * Type: <grammar | word choice | collocation | tone | structure>
   * Severity: Minor / Moderate / Major
