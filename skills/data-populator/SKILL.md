@@ -122,3 +122,5 @@ Before returning a response:
 - [ ] `phonetic` is in American IPA, slashes included.
 - [ ] `word` is capitalized.
 - [ ] Shape matches the routing table (word format vs sentence format, single vs array).
+
+Here is the input: 

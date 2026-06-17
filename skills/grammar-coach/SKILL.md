@@ -96,3 +96,5 @@ Before returning a response:
 - [ ] Alternatives count is 3–5.
 - [ ] No emojis inside sentences.
 - [ ] Original meaning is preserved.
+
+Here is the input: 

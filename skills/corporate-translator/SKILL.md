@@ -78,3 +78,5 @@ Before returning a response:
 - [ ] Tone is confident, action-oriented, and diplomatic where required.
 - [ ] Idioms are used naturally, not as decoration.
 - [ ] Alternatives (if any) are clearly marked as alternatives.
+
+Here is the input: 
