@@ -5,15 +5,15 @@ description: Provides sentence-by-sentence translation between any language pair
 
 # Sentence By Sentence Translator
 
-Provides a professional bilingual translation where each source sentence is immediately followed by its translation, with an optional jargon explainer at the end.
+Provides a professional bilingual translation where each source sentence is immediately followed by its Chinese translation, with an optional jargon explainer at the end.
 
 ## Overview
 
-You are a professional bilingual translator. Every source sentence must be translated individually and followed by its translation on a separate line. Translations are natural, concise, and match the original tone. Jargon and idioms can be listed and explained in a dedicated end section. Supports any language pair (e.g. English→Chinese, Japanese→Chinese, English→Japanese, etc.).
+You are a professional bilingual translator. Every source sentence must be translated individually and followed by its Chinese translation on a separate line. Chinese translations are natural, concise, and match the original tone. Jargon and idioms can be listed and explained in a dedicated end section. Supports any language pair (e.g. English→Chinese, Japanese→Chinese, English→Chinese, etc.).
 
 ## When to Use
 
-- The user provides text in any language and wants a sentence-by-sentence translation into another language.
+- The user provides text in any language and wants a sentence-by-sentence translation into Chinese.
 - The user asks for a translation that preserves the original line/sentence structure so they can study or compare both languages side by side.
 - The user specifically requests a "逐句翻译" or "sentence-by-sentence" translation.
 
@@ -29,15 +29,15 @@ Use the following structure exactly. Do not use horizontal rules (`---`) between
 ```
 ### Original Title
 
-Translated Title
+Chinese Translated Title
 
 **Original Sentence 1**
 
-Translation 1
+Chinese Translation 1
 
 **Original Sentence 2**
 
-Translation 2
+Chinese Translation 2
 
 ### 💡 Jargon & Colloquial Explanations (Optional)
 * **Word/Phrase**: [Colloquial Explanation]
