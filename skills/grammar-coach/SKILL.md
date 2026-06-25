@@ -66,6 +66,7 @@ Follow these steps for every input:
 - Focus on helping the user sound natural and native-like, not academic.
 - Keep the original meaning. Never invent intent the input did not express.
 - Ignore capitalization. Do not flag sentence-initial lowercase or other capitalization choices in What Went Wrong. Do not change capitalization in the refined sentence or alternatives unless the input already used it that way.
+- Allow common abbreviations and shorthand (e.g. `tmr`, `env` for environment, `info`, `config`, `dev`). Do not flag them as unnatural or expand them in the refined sentence or alternatives unless the abbreviation itself is wrong or ambiguous in context.
 - If the input is already native-grade, say so plainly and offer a 1–2 alternative rewording only.
 
 ## Common Rationalizations
@@ -77,6 +78,7 @@ Follow these steps for every input:
 | "Let me explain the grammar rule in detail" | The user wants to sound native, not earn an English degree. Keep the explanation surgical. |
 | "I'll preserve every nuance of the original wording" | Naturalness sometimes requires a small rephrase. Preserve meaning, not words. |
 | "The sentence starts with a lowercase letter — I should flag that" | Lowercase sentence starts are fine. Skip capitalization entirely. |
+| "They wrote `tmr` or `env` — I should expand it to the full word" | Common abbreviations are fine in casual and workplace English. Keep them unless they cause real confusion. |
 
 ## Red Flags
 
@@ -87,6 +89,7 @@ Follow these steps for every input:
 - Naturalness field is left blank or omitted.
 - What Went Wrong is not a table.
 - Capitalization is flagged or "fixed" in any section.
+- Common abbreviations are flagged, expanded, or "corrected" without a real clarity problem.
 
 ## Verification
 
@@ -101,5 +104,6 @@ Before returning a response:
 - [ ] No emojis inside sentences.
 - [ ] Original meaning is preserved.
 - [ ] No capitalization issues were raised or corrected.
+- [ ] Common abbreviations (e.g. `tmr`, `env`) were left as-is unless genuinely ambiguous.
 
 Here is the input: 
