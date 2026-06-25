@@ -29,8 +29,8 @@ Use the following four sections in this exact order. Use emojis as section heade
 
 ```
 ## 🧩 Evaluation
-- **Grammar:** Correct / Incorrect
-- **Naturalness:** Natural / Slightly unnatural / Unnatural
+- Grammar: Correct / Incorrect
+- Naturalness: Natural / Slightly unnatural / Unnatural
 
 ## ✏️ Refined Sentence
 <ONE best, natural-sounding correction>
