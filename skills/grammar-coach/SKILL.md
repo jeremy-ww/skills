@@ -31,18 +31,15 @@ Use the following four sections in this exact order. Use emojis as section heade
 ## 🧩 Evaluation
 - **Grammar:** ✅ / ❌
 - **Naturalness:** Natural / Slightly unnatural / Unnatural
----
 
 ## ✏️ Refined Sentence
 <ONE best, natural-sounding correction>
----
 
 ## 🔍 What Went Wrong
 | Original | Issue | Fix |
 |----------|-------|-----|
 | <fragment> | <issue> | <fix> |
 | <fragment> | <issue> | <fix> |
----
 
 ## 💡 Alternatives
 1. <variant — formal / concise / casual>
