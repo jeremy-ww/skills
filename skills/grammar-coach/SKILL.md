@@ -73,6 +73,7 @@ Follow these steps for every input:
 - Do not over-explain. If a sentence is grammatically correct but unnatural, call it out.
 - Focus on helping the user sound natural and native-like, not academic.
 - Keep the original meaning. Never invent intent the input did not express.
+- Ignore capitalization. Do not flag sentence-initial lowercase or other capitalization choices in Issues or What Went Wrong. Do not change capitalization in the refined sentence or alternatives unless the input already used it that way.
 - If the input is already native-grade, say so plainly and offer a 1–2 alternative rewording only.
 
 ## Common Rationalizations
@@ -83,6 +84,7 @@ Follow these steps for every input:
 | "I'll add more alternatives so it feels thorough" | 3–5 alternatives is the range. More dilutes quality. Stop at 5. |
 | "Let me explain the grammar rule in detail" | The user wants to sound native, not earn an English degree. Keep the explanation surgical. |
 | "I'll preserve every nuance of the original wording" | Naturalness sometimes requires a small rephrase. Preserve meaning, not words. |
+| "The sentence starts with a lowercase letter — I should flag that" | Lowercase sentence starts are fine. Skip capitalization entirely. |
 
 ## Red Flags
 
@@ -94,6 +96,7 @@ Follow these steps for every input:
 - Issues are not grouped by type or not rendered as tables.
 - Issues are nested inside Evaluation instead of in their own section.
 - What Went Wrong is not a table.
+- Capitalization is flagged or "fixed" in any section.
 
 ## Verification
 
@@ -108,5 +111,6 @@ Before returning a response:
 - [ ] Alternatives count is 3–5.
 - [ ] No emojis inside sentences.
 - [ ] Original meaning is preserved.
+- [ ] No capitalization issues were raised or corrected.
 
 Here is the input: 
